@@ -1,4 +1,4 @@
-package algorithms.sorting.datastructure.tree;
+package algorithms.datastructure.tree;
 
 import java.util.ArrayList;
 import java.util.List;

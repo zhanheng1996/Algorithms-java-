@@ -1,4 +1,4 @@
-package algorithms.sorting.datastructure.tree;
+package algorithms.datastructure.tree;
 
 public class TestTree {
     public static void main(String[] args) {
