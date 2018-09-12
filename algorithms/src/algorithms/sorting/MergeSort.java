@@ -23,7 +23,7 @@ public class MergeSort {
     static void mergeSort(int a[], int low, int high) {
         // 要排序的数组是 a[low..high]
         if (low < high) {
-            int mid = (low + high) / 2;
+            int mid = (low + high) >> 1;
             mergeSort(a, low, mid); // 分成一半
             mergeSort(a, mid + 1, high); // 递归地将它们排序
             mergeSortSmallProgram(a, low, mid, high); // 解决: 归并子程序

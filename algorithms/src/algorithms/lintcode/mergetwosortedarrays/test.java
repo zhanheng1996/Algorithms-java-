@@ -18,7 +18,8 @@ public class test {
         System.out.print("请输入数据：");
         for (int i = 0; i < n; i++)
             B[i] = sc.nextInt();
-        int[] C = MergeTwoSortedArrays.mergeSortedArray(A, B);
+        MergeTwoSortedArrays mergeTwoSortedArrays = new MergeTwoSortedArrays();
+        int[] C = mergeTwoSortedArrays.mergeSortedArray(A, B);
         for (int i = 0; i < C.length; i++) {
             System.out.print(C[i] + " ");
         }
