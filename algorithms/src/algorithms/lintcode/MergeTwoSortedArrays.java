@@ -1,4 +1,4 @@
-package algorithms.lintcode.mergetwosortedarrays;
+package algorithms.lintcode;
 
 public class MergeTwoSortedArrays {
     public int[] mergeSortedArray(int[] A, int[] B) {

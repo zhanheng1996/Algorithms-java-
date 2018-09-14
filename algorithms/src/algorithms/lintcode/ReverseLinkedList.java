@@ -1,4 +1,4 @@
-package algorithms.lintcode.reverselinkedlist;
+package algorithms.lintcode;
 
 public class ReverseLinkedList {
     //迭代

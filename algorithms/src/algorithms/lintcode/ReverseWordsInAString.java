@@ -1,4 +1,4 @@
-package algorithms.lintcode.reversewordsinastring;
+package algorithms.lintcode;
 
 public class ReverseWordsInAString {
     public String reverseWords(String s) {
