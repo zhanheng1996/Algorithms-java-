@@ -1,2 +1,2 @@
 # Algorithms-java-
-algorithms learning for java
+algorithms learning(java)
