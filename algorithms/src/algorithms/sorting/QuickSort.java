@@ -11,6 +11,7 @@ public class QuickSort {
         for (int m = 0; m < n; m++) {
             array[m] = sc.nextInt();
         }
+
         quickSort(array, 0, n - 1);
         for (int i = 0; i < n; i++) {
             System.out.print(array[i] + " ");

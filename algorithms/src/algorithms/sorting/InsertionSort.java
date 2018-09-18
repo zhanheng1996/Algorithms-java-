@@ -13,10 +13,11 @@ public class InsertionSort {
         for (int m = 0; m < n; m++) {
             array[m] = sc.nextInt();
         }
+
         //插入排序
         for (int i = 1; i < n; i++) {
             cur = array[i];
-            for (j = i - 1; j >= 0 && array[j] > cur; j--){
+            for (j = i - 1; j >= 0 && array[j] > cur; j--) {
                 array[j + 1] = array[j];
             }
             array[j + 1] = cur;
