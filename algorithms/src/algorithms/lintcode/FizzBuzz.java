@@ -25,7 +25,7 @@ public class FizzBuzz {
 //        return strings;
         List<String> strings = new LinkedList<>();
         for (int i = 1; i <= n; i++) {
-            String w = help(i, 3, "fizz") + help(i, 15, " ") +  help(i, 5, "buzz");
+            String w = helper(i, 3, "fizz") + helper(i, 15, " ") + helper(i, 5, "buzz");
             if (w.equals("")) {
                 w += i;
             }
@@ -33,7 +33,8 @@ public class FizzBuzz {
         }
         return strings;
     }
-    public String help(int n, int div, String w) {
+
+    public String helper(int n, int div, String w) {
         return n % div == 0 ? w : "";
     }
 }
