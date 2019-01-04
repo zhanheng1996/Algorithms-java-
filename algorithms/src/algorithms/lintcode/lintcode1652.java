@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class lincode1652 {
+public class lintcode1652 {
     public class Interval {
         int start, end;
 
