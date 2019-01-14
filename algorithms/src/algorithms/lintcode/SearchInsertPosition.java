@@ -12,7 +12,7 @@ public class SearchInsertPosition {
             return 0;
         }
         int result = 0, begin = 0, end = A.length - 1;
-        while (begin < end) {
+        while (begin <= end) {
             result = (begin + end) / 2;
             if (A[result] == target) {
                 return result;
@@ -22,7 +22,7 @@ public class SearchInsertPosition {
                 end = result - 1;
             }
         }
-        if (A[result] < target) {
+        if (A[result] > target) {
             return result;
         }
         return result + 1;
