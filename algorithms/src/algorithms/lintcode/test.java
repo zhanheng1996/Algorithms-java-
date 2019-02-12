@@ -1,14 +1,10 @@
 package algorithms.lintcode;
 
-import java.util.Collections;
-import java.util.PriorityQueue;
-
 public class test {
     public static void main(String[] args) {
-        PriorityQueue<Integer> a = new PriorityQueue<>(Collections.reverseOrder());
-        a.add(1);
-        a.add(3);
-        a.add(2);
-        System.out.println(a.poll()+" "+a.poll());
+        int xor = 6223;
+        int c = xor - (xor & (xor - 1));
+        System.out.println(c);
+        System.out.println(12^22^22^13);
     }
 }
